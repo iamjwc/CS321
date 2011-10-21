@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <title>Untitled Page</title>
+  
+  <link type="text/css" rel="stylesheet" href="styles.css" />
+  
+  <script src="js/prototype.js" type="text/javascript"></script>
+  <script src="js/effects.js" type="text/javascript"></script>
+  <script src="js/dragdrop.js" type="text/javascript"></script>
+  <script src="js/controls.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+  </script>
+  
+</head>
+<body>
+<center>
+<img src="top.png" />
+</center>
+ 
+ 
+<div id="container">
+  <div id="breadcrumbs">
+    <a href="#">Home</a> &#187; <a href="browse.htm">Browse</a> &#187; Computer Science
+  </div>
+    
+  <div id="header">
+    <h1>Computer Science</h1>
+    <hr />
+  </div>
+  
+  <div id="main">
+    <h3>Description</h3>
+    <div id="description">
+      <p>
+        The Southern Illinois University Edwardsville Computer Science
+        Department offers two undergraduate curricula, one leading to
+        the Bachelor of Science degree and the other to the Bachelor of
+        Arts degree. The curricula have been designed to provide students
+        with a solid foundation from which they can grow and change with
+        the discipline of computing. The department also offers a Master
+        of Science degree in Computer Science and a Computer Science Minor.
+      </p>
+    </div>
+    
+    <h3>Courses</h3>
+    <div>
+      <ul>
+        <li><a href="#">CS140: Intro to Computing I</a></li>
+        <li><a href="#">CS150: Intro to Computing II</a></li>
+        <li><a href="#">CS240: Intro to Computing III</a></li>
+        <li><a href="#">CS312: Computer Architecture</a></li>
+        <li><a href="cs321.htm">CS321: Human Computer Interaction</a></li>
+        <li><a href="#">CS330: Programming Languages</a></li>
+        <li><a href="#">CS340: Data Structures &amp; Algorithms</a></li>
+        <li><a href="#">CS414: Operating Systems</a></li>
+        <li><a href="#">CS434: Databases</a></li>
+        <li><a href="#">CS482: Graphics</a></li>
+      </ul>
+    </div>
+    
+    <h3>Study Plans</h3>
+    <div>
+      <ul>
+        <li><a href="#">B.S. in Computer Science</a></li>
+        <li><a href="#">B.S. in Computer Science</a></li>
+        <li><a href="#">Minor in Computer Science</a></li>
+        <li><a href="#">M.S. in Computer Science</a></li>        
+      </ul>
+    </div>
+    
+    <h3>Professors</h3>
+    <div>
+      <ul>
+        <li><a href="#">Edmond Abrahamian, Ph. D.</a></li>
+        <li><a href="#">Stephen Blythe, Ph. D.</a></li>
+        <li><a href="#">Dennis J Bouvier, Ph. D.</a></li>
+        <li><a href="#">Dan Dooly, D. Sc.</a></li>
+        <li><a href="#">Bryon Ehlmann, Ph. D.</a></li>
+        <li><a href="#">Hiroshi Fujinoki, Ph. D.</a></li>
+        <li><a href="#">Steve Klein, M. Sc.</a></li>
+        <li><a href="#">Greg Stephen, Ph. D.</a></li>
+        <li><a href="#">Lori Tetzner, M. Sc.</a></li>
+        <li><a href="#">Socratis Tornaritis, M. Sc.</a></li>
+        <li><a href="#">Bernard Waxman, D. Sc.</a></li>
+        <li><a href="weinberg.htm">Jerry Weinberg, Ph. D.</a></li>
+        <li><a href="#">William White, Ph. D.</a></li>
+        <li><a href="#">Trong Wu, Ph. D.</a></li>
+        <li><a href="#">Xudong Yu, Ph. D.</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="sidebar">
+    
+    <div id="study_plan_items">
+      <h3>Spring 2007 Study Plan</h3>
+      <p>
+        These 3 classes in your study plan for spring 2007
+        have not been added to your schedule yet.
+      </p>
+      <ul>
+        <li><a href="#">CS330: Programming Languages</a></li>
+        <li><a href="#">CS434: Databases</a></li>
+        <li><a href="#">CS482: Graphics</a></li>
+      </ul>
+    </div>
+    
+    <ul id="tabs">
+      <li id="schedule_tab"><a href="#" onclick="show_schedule();return(false);">Schedule Spring 2007</a></li>
+      <li id="study_plan_tab"><a href="#" onclick="show_study_plan();return(false);">Build Study Plan</a></li>
+    </ul>
+    <div id="tabs_container">
+      <div id="build_schedule">
+        <div id="schedule_container"></div>
+        <p class="yield" id="class_added_notification">
+          You have successfully added <strong>CS321</strong> to your
+          schedule on <em>MW @ 10:00am.</em>
+        </p>        
+      </div>
+      
+      <div id="build_study_plan">
+        <div id="study_plan_container">
+          <table id="study_plan" cellpadding="0" cellspacing="0">
+            <tr>
+              <th>Fall 2007</th>
+              <th>Spring 2008</th>
+            </tr>
+            <tr>
+              <td class="left bin"><em>Drag Class To Add</em></td>
+              <td class="right bin"><em>Drag Class To Add</em></td>
+            </tr>
+            <tr>
+              <th>Fall 2008</th>
+              <th>Spring 2009</th>
+            </tr>
+            <tr>
+              <td class="left bin"><em>Drag Class To Add</em></td>
+              <td class="right bin"><em>Drag Class To Add</em></td>
+            </tr>
+            <tr>
+              <th>Fall 2009</th>
+              <th>Spring 2010</th>
+            </tr>
+            <tr>
+              <td class="left bin"><em>Drag Class To Add</em></td>
+              <td class="right bin"><em>Drag Class To Add</em></td>
+            </tr>
+          </table>
+        </div>
+        
+      </div>
+      
+  <!--  </div>-->
+      
+  </div>
+</div>
+
+</body>
+</html>

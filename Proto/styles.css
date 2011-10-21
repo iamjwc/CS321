@@ -1,0 +1,277 @@
+﻿
+h1
+{
+  font-size:   3em;
+  margin:      0;
+}
+
+h2
+{
+  font-size:   1.8em;
+  font-weight: normal;
+  font-style:  italic;
+  margin:      0;
+}
+
+h2 a
+{
+  font-weight: bold;
+}
+
+h3
+{
+  font-size:     1.8em;
+  margin-bottom: 0;
+}
+
+h1, h2, h3
+{
+  font-family: Times New Roman, serif;
+  font-weight: normal;
+}
+
+p, ul
+{
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+li
+{
+  margin: .65em 0;
+}
+
+textarea
+{
+  width:  100%;
+  height: 75px;
+}
+
+#main div, #sidebar #build_study_plan div, #sidebar #build_schedule div
+{
+  font-size: 1.2em;
+  color: #555;
+}
+
+
+a
+{
+  text-decoration: underline;
+  color: #039;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+
+#breadcrumbs a
+{
+  font-weight: bold;
+}
+
+#breadcrumbs
+{
+  margin-bottom: .5em;
+}
+
+body
+{ 
+  margin: 0;
+  
+  background: #fff url(grey_bg.png) repeat-x;
+  
+  font: 62.5% Verdana;
+}
+
+#container
+{
+  margin: 0 auto;
+  width: 800px;
+}
+
+#main
+{  
+  float: left;
+  width: 475px;
+}
+
+ul
+{
+  margin: .5em;
+  padding-left: 1em;
+}
+
+.warning
+{
+  border: 1px solid #c33;
+  background-color: #fcc;
+  padding: 1em;
+  color: #333;
+  
+  font-size: 1.2em;
+}
+
+.yield
+{
+  border: 1px solid #cc3;
+  background-color: #ffc;
+  padding: 1em;
+  color: #333;
+  
+  font-size: 1.2em;
+}
+
+#sidebar li.sections
+{
+}
+
+#sidebar li.sections:hover
+{
+}
+
+#sidebar
+{
+  float: right;
+  width: 300px;
+}
+
+#sidebar #tabs
+{
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+  margin: 0;
+  font-size: 1.1em;
+  
+  margin-top: 2em;
+}
+
+#sidebar #tabs li
+{
+  float: left;
+  height: 17px;
+  background-color: #eee;
+  margin: 2px 2px 0 2px;
+  border: 1px solid #333;
+}
+
+#sidebar #tabs a
+{
+  float: left;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px 5px 0 5px;
+}
+
+#sidebar #tabs .current
+{
+  border-bottom: 1px solid #fff;
+  background-color: #fff;
+}
+
+#sidebar #tabs .current a
+{
+  font-weight: normal;
+}
+
+#sidebar #tabs_container
+{
+  background-color: #fff;
+  border: 1px solid #333;
+  border-top-width: 0;
+  
+  padding: 1em;
+}
+
+#sidebar table
+{
+  border-collapse: collapse;
+}
+
+#sidebar #schedule_container td
+{
+  border: 1px solid #333;
+  width: 16.6%;
+}
+
+#sidebar #schedule_container tbody
+{
+  text-align: right;
+  font-size: 0.8em;
+}
+
+#sidebar #schedule_container .odd
+{
+  background-color: #eee;
+}
+
+#sidebar #schedule_container th
+{
+  width: 5%;
+  font-weight: normal;
+  padding: 0 .25em;
+  background-color: #fff;
+}
+
+#sidebar #study_plan
+{
+  width: 100%;
+}
+
+#sidebar #study_plan em
+{
+  color: #999;
+}
+
+#sidebar #study_plan .left
+{
+  border-right: 1px solid #999;
+}
+#sidebar #study_plan .right
+{
+  border-left: 1px solid #999;
+}
+
+#sidebar #study_plan .bin
+{
+  font-size: .8em;
+  border-top: 1px solid #999;
+  
+  padding: .25em;
+  padding-bottom: 2em;
+}
+
+#sidebar #study_plan_container, #sidebar #schedule_container
+{
+  padding: .2em;
+  border: 2px solid #fff;
+}
+
+#sidebar #schedule_container
+{
+  padding: .2em;
+  border: 2px solid #fff;
+}
+
+#sidebar #schedule_container.schedule_highlight
+{
+  border: 2px solid #039;
+}
+
+#sidebar .schedule_active td
+{
+  background-color: #E5EAF5;
+}
+
+
+#add_section a:hover, #add_study_plan a:hover
+{
+  cursor: move;
+}
+#add_section a img, #add_study_plan a img
+{
+  border: none;
+}
+
